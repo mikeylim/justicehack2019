@@ -128,8 +128,10 @@ input[type=radio] {
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
+    width: 300px;
+    /* height: 200px; */
     position: fixed;
-    bottom: -20px;
+    bottom: -10px;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 1;
@@ -142,23 +144,6 @@ input[type=radio] {
     background-color: white; */
   }
   
-  .form-container textarea {
-    /* width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-    resize: none;
-    min-height: 200px; */
-  }
-  
-  /* When the textarea gets focus, do something */
-  .form-container textarea:focus {
-  }
-  
-  /* Set a style for the submit/send button */
-  .form-container .btn {
-  }
 
 .chatbox{
     border-radius: 15px;
@@ -172,5 +157,10 @@ input[type=radio] {
     border: none;
     background: #f1f1f1;
     resize: none;
-    min-height: 200px;
+    min-height: 50px;
+}
+
+#footer-elements{
+    color: white;
+    font-size: 0.9rem;
 }
