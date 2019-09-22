@@ -39,7 +39,9 @@
     .contentTop{
         width: 58rem;
     }
-
+    #footer-elements{
+        width: 58rem;
+    }
 }
 
 .question_div {
@@ -63,8 +65,9 @@ input[type=radio] {
 
 .form-control {
     display: inline-block;
+    margin-top: 0.8rem;
     font-size: 1.2rem;
-    width: 30rem;
+    width: 25rem;
     
 }
 #checkAvailability{
@@ -84,12 +87,9 @@ input[type=radio] {
     font-size: 1.0rem;
 }
 
-.footer{
-    border-radius: 0 0 10px 10px;
+#footer-elements{
     background-color: #194780;
-    height: 3rem;
-    
+    border-radius: 0 0 10px 10px;    
+    height: 4rem;
+    width: 60rem;
 }
-/* #footer-elements{
-    padding: 10px;
-} */
