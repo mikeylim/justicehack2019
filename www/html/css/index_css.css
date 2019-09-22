@@ -9,6 +9,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+
 .question_text {
     font-size: 3rem;
     text-align: center;
@@ -35,7 +38,9 @@
 
 
 .btn {
-    font-size: 3rem;
+    font-size: 2rem;
+    bottom: 0;
+    position: fixed;
 }
 
 
@@ -65,9 +70,13 @@ input[type=radio] {
 
 }
 
+
 .form-group {
     font-size: 3rem;
 }
 
+.form-control {
+    font-size: 2rem;
 
+}
 
