@@ -15,14 +15,14 @@
 .question_text {
     font-size: 3rem;
     text-align: center;
-    color: #447CBF;
+    color: #194780;
 }
 
 @media only screen and (max-width: 400px) {
     .question_text {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        color: #447CBF;
+        color: #194780;
     }
 }
 
@@ -32,8 +32,8 @@
 }
 
 .question_div {
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
 }
 
 
@@ -77,6 +77,4 @@ input[type=radio] {
 
 .form-control {
     font-size: 2rem;
-
 }
-
