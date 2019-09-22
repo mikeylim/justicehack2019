@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png"/> -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Welcome to Carla</title>
+    
+  </head>
+
+
+  <body class="body_class">
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg  static-top">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img src="img/logo.png" alt="Logo of Carla" width="150rem;">
+        </a>
+        
+        <div><img src="img/chatbot.png" alt="Carla - image of chatbot" width="32rem;" height="32rem;"> Chat Online</div>
+      </div>
+    </nav>
+
+    
+    <div class="contentTop">
+        <!-- Title -->
+        <div class="text-center">
+            <h1 class="title" style="color: #194780;">British Columbia Incorporation</h1>
+        </div>
+
+        <!-- Progress bar-->
+        <div>
+          <span >Step 2 of 4 - Coporation Name</span>
+          <div class="progress center-block ">            
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+              75%
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Div / Answer-->
+        <div class="container question_div" id="question-div">
+          <div>
+            <h1 class="title">3. Shares Preference</h1>
+            <p class="question_text">Would you like to have:</p>
+          </div>
+        </div>
+    
+        <div id="answer-div" class="container answer">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="numberedComp" value="option1" onclick="disableCheck()">
+            <label class="form-check-label form" for="numberedComp">
+              Common shares only
+            </label>
+          </div>
+    
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="companyName" value="option2" onclick="enableCheck()">
+            <label class="form-check-label" for="companyName">Common and preferred shares<br></label>
+          </div>
+          <div class="errorMessages-div">
+            <p id="errorMessage"></p>
+            <ul id="companyList" class="list-unstyled"></ul>
+          </div>
+        </div>
+
+        <!-- Next Question Button-->
+        <div class="text-center">
+            <a href="second.html" class="btn btn-primary btn-md" id="btnPrevious">&laquo; Previous</a>
+            <a href="fourth.html" class="btn btn-primary btn-md" id="btnContinue">Continue &raquo;</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="footer-elements">
+            <!-- <img src="img/chatbot.png" alt="Carla - image of chatbot" width="45rem;" height="45rem;"> -->
+        </div>
+    </div>
+
+
+  </body>
+</html>
+
