@@ -13,7 +13,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     width: 60rem;
-    /* width: 980px; */
     margin: auto;
 }
 
@@ -66,6 +65,7 @@ input[type=radio] {
 .form-control {
     display: inline-block;
     margin-top: 0.8rem;
+    margin-right: 0.4rem;
     font-size: 1.2rem;
     width: 25rem;
     
@@ -92,4 +92,85 @@ input[type=radio] {
     border-radius: 0 0 10px 10px;    
     height: 4rem;
     width: 60rem;
+}
+
+#btnPrevious{
+    background-color: #b8b8b8;
+}
+#chatbot{
+    width: 4rem;
+    height: 4rem;
+}
+#carla{
+    width: 4rem;
+    height: 5rem;
+}
+.inlines{
+    display: inline-block;
+}
+
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 20rem;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: -20px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 1;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    /* max-width: 300px;
+    padding: 10px;
+    background-color: white; */
+  }
+  
+  .form-container textarea {
+    /* width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px; */
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+  }
+
+.chatbox{
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-left: 3px;
+    padding: 0 10px 10px 10px;
+
+    width: 15rem;
+    padding: 15px;
+    /* margin: 5px 0 22px 0; */
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
 }
