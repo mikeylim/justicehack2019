@@ -1,6 +1,5 @@
 .progress {
-    margin-left: auto;
-    margin-right:auto;
+    margin: 0 auto;
     width: 89%;
 }
 
@@ -8,9 +7,6 @@
     background-color: #F3F9FD;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 
 .question_text {
     font-size: 3rem;
@@ -26,7 +22,6 @@
     }
 }
 
-
 .progress {
     height: 2rem;
 }
@@ -36,21 +31,17 @@
     padding-bottom: 1.2rem;
 }
 
-
 .btn {
     font-size: 2rem;
     bottom: 0;
     position: fixed;
 }
 
-
 .form-check-label {
     font-size: 3rem;
     color: #447CBF;
     padding-left: 2.2rem;
 }
-
-
 
 input[type=radio] {
     width: 3rem;
@@ -62,14 +53,11 @@ input[type=radio] {
         font-size: 1.5rem;
         padding-left: 1.5rem;
     }
-
     input[type=radio] {
         width: 1.5rem;
         height: 1.5rem;
     }
-
 }
-
 
 .form-group {
     font-size: 3rem;
