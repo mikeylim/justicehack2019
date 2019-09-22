@@ -58,34 +58,40 @@
     
         <div id="answer-div" class="container answer">
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="numberedComp" value="option1" onclick="disableCheck()">
+            <input class="form-check-input" for="invalidCheck" required type="radio" name="exampleRadios" id="numberedComp" value="option1" onclick="disableCheck()">
             <label class="form-check-label form" for="numberedComp">
               Numbered corporation
             </label>
           </div>
     
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="companyName" value="option2" onclick="enableCheck()">
-            <label class="form-check-label" for="companyName">Use preferred corporation name <br>              
-              <input type="text" class="form-control" id="company" placeholder="Type here...">
+            <input class="form-check-input" for="invalidCheck" type="radio" name="exampleRadios" id="companyName" value="option2" required onclick="enableCheck()">
+            <label class="form-check-label" required for="companyName">Use preferred corporation name <br>              
+              <input type="text" class="form-control" id="company" required placeholder="Type here...">
               <button type="submit" class="btn btn-success" id="checkAvailability" onClick="checkAvailability()" disabled>Check Availability &raquo;</button>
             </label>
           </div>
           <div class="errorMessages-div">
             <p id="errorMessage"></p>
             <ul id="companyList" class="list-unstyled"></ul>
+            <div id="errors">
+                
+            </div>
           </div>
         </div>
 
         <!-- Next Question Button-->
         <div class="text-center">
-            <a href="second.html" class="btn btn-primary btn-md" id="btnContinue">Continue &raquo;</a>
+            <a href="second.html" class="btn btn-primary btn-md" id="btnContinue" onclick="validate()" >Continue &raquo;</a>
             <div class="float-right inlines" ><img src="img/chatbot.png" onclick="openForm();" id="chatbot" alt="BizWiz - image of chatbot"></div>        
         </div>
     </div>
 
     <div class="footer">
-        <div id="footer-elements">
+        <div id="footer-elements" class="text-center">
+            <span>info@bizwiz.ca</span> <br>
+            <span>777 Dunsmuir St Vancouver, BC V6C 1X8</span>  <br>
+            <span>©2019 BizWiz® - All Rights Reserved.</span>
         </div>
     </div>
 
